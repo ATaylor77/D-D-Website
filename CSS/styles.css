@@ -1,0 +1,34 @@
+/* Nav Menu */
+#nav_menu {
+    margin: auto;
+}
+
+#nav_menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav_menu ul li {
+  flex-basis: 25%;
+}
+
+#nav_menu ul li a {
+    text-align: center;
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: rgb(156, 104, 104);
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid rgb(0, 0, 0);
+}
+
+#nav_menu ul li a.lastitem {
+    border-right: none;
+}
+
+#nav_menu ul li a:hover {
+    background-color: rgb(58, 3, 3);
+}
